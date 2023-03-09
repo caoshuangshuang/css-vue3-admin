@@ -1,0 +1,25 @@
+@use 'var.scss' as custom;
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $colors: (
+    'primary': (
+      'base': custom.$primary,
+    ),
+    'success': (
+      'base': custom.$success,
+    ),
+    'warning': (
+      'base': custom.$warning,
+    ),
+    'danger': (
+      'base': custom.$danger,
+    ),
+    'error': (
+      'base': custom.$danger,
+    ),
+    'info': (
+      'base': custom.$info,
+    ),
+  )
+);
+
+@use "element-plus/theme-chalk/src/index.scss" as *;

@@ -1,0 +1,22 @@
+.breadcrumb-enter-active {
+  transition: all 0.5s ease-in;
+}
+.breadcrumb-leave-active {
+  transition: all 0.5s ease-out;
+}
+
+.breadcrumb-enter-from,
+.breadcrumb-leave-to {
+  transform: translateX(20px);
+  opacity: 0;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}

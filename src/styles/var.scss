@@ -1,0 +1,38 @@
+$primary:rgb(101,194,224);
+$warning:rgb(248,203,0);
+$danger:rgb(255,107,107);
+$success:rgb(70,183,174);
+$info:rgb(207,207,207);
+$grape:rgb(164,139,213);
+
+$font-color:#333;
+$font-gray:#666;
+$font-light-gray:#333;
+
+$border-color:rgb(245,245,245);
+$bg-color:rgb(246,246,246);
+
+:root {
+  .el-menu {
+    --el-menu-text-color: rgb(152, 153, 164);
+    --el-menu-active-color: rgb(255,255,255);
+    --el-menu-hover-text-color:rgb(255,255,255);
+    --el-menu-text-color: rgb(152, 153, 164);
+    --el-menu-bg-color: rgb(50, 52, 68);
+    --el-menu-hover-bg-color: rgb(29, 32, 45);
+    --el-menu-border-color: rgb(50, 52, 68);
+    --el-menu-base-level-padding: 20px;
+    --el-menu-level-padding: 20px;
+    --el-menu-icon-width: 24px;
+  }
+
+  .el-main {
+    --el-main-padding:12px;
+  }
+
+  --custom-menu-width-expand: 200px;
+  --custom-menu-width-collapse: calc(var(--el-menu-icon-width) + var(--el-menu-base-level-padding) * 2);
+  --custom-header-height: 70px;
+  --custom-settings-height:50px;
+  --custom-tags-view-height: 48px;
+}
